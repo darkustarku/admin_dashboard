@@ -8,50 +8,155 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./modern-normalize.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="sidebar">
-            <div class="Dashboard">
-                <p>Dashboard</p>
+            <div class="row1">
+                <img class="dash-icon" src="dash_icons/view-dashboard.svg">
+                <p class='dashboard'>Dashboard</p>
+            </div>
+            <div class=row2>
+                <img src="dash_icons/home.svg">
+                <p>Home</p>
+                <img src="dash_icons/face-woman-profile.svg">
+                <p>Profile</p>
+                <img src="dash_icons/message-reply.svg">
+                <p>Messages</p>
+                <img src="dash_icons/history.svg">
+                <p>History</p>
+                <img src="dash_icons/newspaper-variant-multiple.svg">
+                <p>Tasks</p>
+                <img src="dash_icons/account-group.svg">
+                <p>Communities</p>
+            </div>
+            <div class="row3">
+                <img src="dash_icons/cog.svg">
+                <p>Settings</p>
+                <img src="dash_icons/lifebuoy.svg">
+                <p>Support</p>
+                <img src="dash_icons/shield-half-full.svg">
+                <p>Privacy</p>
             </div>
         </div>
         <div class="main-content">
             <div class="top-navbar">
-
+                <div class="search-section">
+                    <div class="left-side">
+                        <img src="./dash_icons/magnify.svg">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="right-side">
+                        <div class="container">
+                            <img class="bell" src="./dash_icons/bell-ring-outline.svg">
+                            <img class="spidey" src="./spidey.jpg">
+                            <p>Ahmed A</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="upload-section">
+                    <div class="left-side">
+                        <div class="left-image">
+                            <img src="./spidey.jpg">
+                        </div>
+                        <div class="hello">
+                            <p class="hi">Hi there, </p>
+                            <p class="name">Ahmed Abdelhameid (@ahmed)</p>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <button type="button" class="button">New</button>
+                        <button type="button" class="button">Upload</button>
+                        <button type="button" class="button">Share</button>
+                    </div>
+                </div>
             </div>
             <div class="project-content">
                 <div class="projects">
                     <p class="your-projects">Your Projects</p>
                     <div class="project-card">
-                        
+                        <span>Super Cool Stuff!</span>
+                        <div class="article-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend sit litora id non torquent tellus. Integer duis efficitur sed finibus elit cubilia eget. Nisi venenatis hac, curae eleifend.</div>
+                        <div class="icon-container">
+                            <img src="./card_icons/star-plus.svg">
+                            <img src="./card_icons/eye-plus-outline.svg">
+                            <img src="./card_icons/arrow-right-bottom.svg">
+                        </div>
                     </div>
                     <div class="project-card">
-                        
+                        <span>Masked Menace At it Again!</span>
+                        <div class="article-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend sit litora id non torquent tellus. Integer duis efficitur sed finibus elit cubilia eget. Nisi venenatis hac, curae eleifend.</div>
+                        <div class="icon-container">
+                            <img src="./card_icons/star-plus.svg">
+                            <img src="./card_icons/eye-plus-outline.svg">
+                            <img src="./card_icons/arrow-right-bottom.svg">
+                        </div>
                     </div>
                     <div class="project-card">
-                        
+                        <span>Who is the Man Behind the Mask?</span>
+                        <div class="article-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend sit litora id non torquent tellus. Integer duis efficitur sed finibus elit cubilia eget. Nisi venenatis hac, curae eleifend.</div>
+                        <div class="icon-container">
+                            <img src="./card_icons/star-plus.svg">
+                            <img src="./card_icons/eye-plus-outline.svg">
+                            <img src="./card_icons/arrow-right-bottom.svg">
+                        </div>
                     </div>
                     <div class="project-card">
-                        
+                        <span>Spiderman and Doc Ock Take the Subway!</span>
+                        <div class="article-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend sit litora id non torquent tellus. Integer duis efficitur sed finibus elit cubilia eget. Nisi venenatis hac, curae eleifend.</div>
+                        <div class="icon-container">
+                            <img src="./card_icons/star-plus.svg">
+                            <img src="./card_icons/eye-plus-outline.svg">
+                            <img src="./card_icons/arrow-right-bottom.svg">
+                        </div>
                     </div>
                     <div class="project-card">
-                        
+                        <span>Tony Stark CURE$ Blindness!</span>
+                        <div class="article-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend sit litora id non torquent tellus. Integer duis efficitur sed finibus elit cubilia eget. Nisi venenatis hac, curae eleifend.</div>
+                        <div class="icon-container">
+                            <img src="./card_icons/star-plus.svg">
+                            <img src="./card_icons/eye-plus-outline.svg">
+                            <img src="./card_icons/arrow-right-bottom.svg">
+                        </div>
                     </div>
                     <div class="project-card">
-                        
+                        <span>Nothing</span>
+                        <div class="article-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Eleifend sit litora id non torquent tellus. Integer duis efficitur sed finibus elit cubilia eget. Nisi venenatis hac, curae eleifend.</div>
+                        <div class="icon-container">
+                            <img src="./card_icons/star-plus.svg">
+                            <img src="./card_icons/eye-plus-outline.svg">
+                            <img src="./card_icons/arrow-right-bottom.svg">
+                        </div>
                     </div>
                 </div>
                 <div class="more-info">
                     <p class="announcement">Announcements</p>
                     <div class="info-card">
-
+                        <div class="announcements-container">
+                            <div class="statement">
+                                <p>Site Maintenance</p>
+                                <div class="statement-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Mus lectus hendrerit ante at sodales malesuada. Conubia mauris parturient suscipit platea mi cras.</div>
+                            </div>
+                        </div>
+                        <div class="announcements-container">
+                            <div class="statement">
+                                <p>Updated Privacy Policy</p>
+                                <div class="statement-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Mus lectus hendrerit ante at sodales malesuada.</div>
+                            </div>
+                        </div>
+                        <div class="announcements-container">
+                            <div class="statement" id="final">
+                                <p>Oscorp-Classified</p>
+                                <div class="statement-text" >Lorem ipsum odor ipsum odor amet, consectetuer adipiscing elit. Amet...</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="trending">
-                        <p>Trending</p>
-                        <div class="info-card">
-
+                        <p class="trending">Trending</p>
+                        <div class="info-card" class="trending-info-card">
+                            
                         </div>
                     </div>
                 </div>
